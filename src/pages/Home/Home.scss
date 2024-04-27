@@ -1,0 +1,15 @@
+@import '../../theme/colors.scss';
+
+
+.app-container{
+    margin:0px;
+    width:100vw;
+    min-width: 325px;
+    background-image: linear-gradient($info-background-color,$background-top-color, $background-medium-color, $background-bottom-color);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    justify-content:space-between;
+}

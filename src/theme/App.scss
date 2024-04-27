@@ -1,0 +1,22 @@
+@import './colors.scss';
+
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif; 
+//    border: 1px solid red;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: auto;
+}
+
+.container {
+    margin: 0px 0px;
+    border: 1px solid red;
+}
